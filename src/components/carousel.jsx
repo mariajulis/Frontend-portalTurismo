@@ -5,11 +5,11 @@ import 'swiper/css'  // Importa estilos padrão do Swiper
 
 // Importa imagens para usar nos cards
 import campinagrande from "../assets/imagens/campinagrande.png"
-import cristo from "../assets/imagens/cristo.jpg"
-import marques from "../assets/imagens/marques.jpg"
-import mercadao from "../assets/imagens/mercadao.jpg"
-import praca from "../assets/imagens/praca.jpg"
-import teatro from "../assets/imagens/teatro.jpg"
+import coliseu from "../assets/imagens/coliseu.png"
+import cristoredentor from "../assets/imagens/cristoredentor.png"
+import maracana from "../assets/imagens/maracana.png"
+import ponte from "../assets/imagens/ponte.png"
+import sãoluis from "../assets/imagens/sãoluis.png"
 
 // Array de objetos com dados dos pontos turísticos (imagem, título e descrição)
 const tourist_places = [
