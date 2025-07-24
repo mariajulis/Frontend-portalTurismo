@@ -6,6 +6,7 @@ import ServicePage from "./pages/servicePage"
 import ContactPage from "./pages/contactPage"
 import AboutPage from "./pages/aboutPage"
 import LoginPage from "./pages/loginPage"
+import RegisterPage from "./pages/registerPage"
 function App() {
   return (
     <Router>
@@ -15,6 +16,8 @@ function App() {
         <Route path="/service" element={<ServicePage/>}/>
         <Route path="/contact" element={<ContactPage/>}/>
         <Route path="/login" element={<LoginPage/>}/>
+        <Route path="/about" element={<AboutPage/>}/>
+        <Route path="/register" element={<RegisterPage/>}/>
         
       </Routes>
     </Router>

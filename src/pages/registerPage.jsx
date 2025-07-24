@@ -1,8 +1,8 @@
 import React from "react";
 import Navbar from "../components/navbar"
 import Footer from "../components/footer"
-import coqueiro from "../assets/imagens/coqueiro.png"
 import RegisterForm from "../components/registerForm";
+import coqueiro from "../assets/imagens/coqueiro.png"
 const RegisterPage = () => {
     return(
         <>
@@ -20,5 +20,6 @@ const RegisterPage = () => {
     )
 }
  
-export default RegisterPage;
+export default RegisterPage
+ 
  
