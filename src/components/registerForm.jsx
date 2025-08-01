@@ -11,9 +11,9 @@ const RegisterForm = () => {
         e.preventDefault();
         try {
             const response = await axios.post("https://backend-portalturismo-1-txt3.onrender.com/api/users", {
-                nome,
+                name:nome,
                 email,
-                senha,  // corrigido aqui
+                password:senha,  // corrigido aqui
             });
             const userData = response.data;
             localStorage.setItem("user", JSON.stringify(userData));
