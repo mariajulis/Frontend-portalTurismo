@@ -10,7 +10,7 @@ const RegisterForm = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            const response = await axios.post("http://localhost:5000/api/user", {
+            const response = await axios.post("https://backend-portalturismo-1-txt3.onrender.com/api/users", {
                 nome,
                 email,
                 senha,  // corrigido aqui
